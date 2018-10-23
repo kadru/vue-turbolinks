@@ -1,8 +1,12 @@
 {
-  "name": "vue-turbolinks",
-  "version": "2.0.3",
+  "name": "vue-turbolinks-fork",
+  "version": "2.0.4",
   "description": "A Vue mixin to make components work with Turbolinks' cache",
-  "main": "index.js",
+  "main": "dist/vue-turbolinks.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "rollup -c"
   },
